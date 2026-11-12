@@ -1,0 +1,12 @@
+{
+  "video": "view-square.webm",
+  "start_s": 42,
+  "end_s": 52,
+  "post_seed_frames": 300,
+  "median_processing_ms": 6.238900000425929,
+  "p95_processing_ms": 7.048629998917022,
+  "initial_points": 37,
+  "initialization_ms": 12.010600001303828,
+  "accepted_updates": 95,
+  "checks": []
+}

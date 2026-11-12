@@ -1,0 +1,11 @@
+{
+  "source": "https://huggingface.co/datasets/PianoVAM/PianoVAM_v1/tree/408daf63883a7f32366552475794c5cfad657e7a",
+  "seconds_per_case": 45,
+  "cases": [
+    {"id": "2024-09-05_21-31-00", "split": "valid"},
+    {"id": "2024-09-05_21-04-38", "split": "valid"},
+    {"id": "2024-09-04_17-02-04", "split": "test"},
+    {"id": "2024-09-05_21-26-38", "split": "test"},
+    {"id": "2024-02-15_20-47-59", "split": "test"}
+  ]
+}

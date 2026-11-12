@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+    <title>键盘对位 · XREAL 钢琴 Demo</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">XREAL / PIANO LAB <span>01 — KEYBOARD</span></p>
+        <h1>键盘对位<span>.</span></h1>
+        <p>在同一帧画面上识别黑白键，检查轮廓能否贴合琴面。</p>
+      </header>
+      <div class="controls">
+        <button id="xr">XREAL 灰度相机</button>
+        <button id="camera">普通摄像头</button>
+        <button id="open-image">打开琴键照片</button>
+        <button id="sample">试用示例照片</button>
+        <input id="image" type="file" accept="image/*" hidden>
+        <button id="stop">停止</button>
+      </div>
+      <section id="monitor" aria-label="琴键识别预览">
+        <div class="monitor-head">
+          <span id="source">未选择输入</span>
+          <button id="fullscreen">全屏</button>
+        </div>
+        <div class="view">
+          <canvas id="output" hidden aria-label="相机画面与黑白键轮廓"></canvas>
+          <canvas id="note-overlay" hidden aria-hidden="true"></canvas>
+          <div id="placeholder">选择一个画面来源开始识别</div>
+        </div>
+        <div class="monitor-foot">
+          <span id="status" role="status">等待画面</span>
+          <span id="counts"></span>
+        </div>
+      </section>
+      <div class="controls lower">
+        <label><input id="xreal-rectify" type="checkbox" checked> XREAL 鱼眼校正</label>
+        <label>XREAL 键盘
+          <select id="xreal-keys">
+            <option value="61">61 键</option>
+            <option value="88">88 键</option>
+            <option value="">不核对键数</option>
+          </select>
+        </label>
+        <label>XREAL 画面方向
+          <select id="rotation">
+            <option value="0">原始</option>
+            <option value="90">顺时针 90°</option>
+            <option value="180">180°</option>
+            <option value="270">逆时针 90°</option>
+          </select>
+        </label>
+        <label>最低白键 MIDI
+          <input id="midi" type="number" min="0" max="127" placeholder="可选">
+        </label>
+        <button id="export" disabled>导出键位 JSON</button>
+      </div>
+      <div class="controls lower">
+        <button id="listen" aria-pressed="false">开启麦克风听音</button>
+        <output id="played-note">单音识别 · 等待开启</output>
+      </div>
+      <p class="hint">尽量拍到键盘的左右端、前沿和黑键。绿色描边是白键，橙色描边是黑键。填写最低白键的 MIDI 编号后可导出绝对音高。</p>
+      <p class="hint" id="credit" hidden>示例照片 <a href="https://commons.wikimedia.org/wiki/File:Yamaha_P-140S_top_view.jpg">Yamaha P-140S top view</a>，Kae，<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>。</p>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

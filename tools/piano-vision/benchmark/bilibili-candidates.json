@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "candidates": [
+    {
+      "id": "BV1dT4y1T7bj",
+      "page": 1,
+      "url": "https://www.bilibili.com/video/BV1dT4y1T7bj/",
+      "view_claim": "手机第一人称，页面描述口叼手机",
+      "duration_s": 22,
+      "review": "备用地址下载成功，人工抽帧确认第一人称。页面标有未经授权禁止转载，本地评测副本不纳入发布。",
+      "release": "link_only"
+    },
+    {
+      "id": "BV1cunnz8EuW",
+      "page": 1,
+      "url": "https://www.bilibili.com/video/BV1cunnz8EuW/",
+      "view_claim": "简介标注第一视角弹琴",
+      "review": "已读取播放信息，视频 CDN 返回 567。未找到明确的再分发许可。",
+      "release": "link_only"
+    },
+    {
+      "id": "BV1x7411E75W",
+      "page": 2,
+      "url": "https://www.bilibili.com/video/BV1x7411E75W/?p=2",
+      "view_claim": "简介明确指出 P2 为练琴时的第一人称拍摄",
+      "review": "已读取播放信息，视频 CDN 返回 567。页面标有未经授权禁止转载。",
+      "release": "link_only"
+    },
+    {
+      "id": "BV1rofdYEEHU",
+      "page": 1,
+      "url": "https://www.bilibili.com/video/BV1rofdYEEHU/",
+      "view_claim": "标题为第一视角倒着弹钢琴",
+      "review": "保留为非典型机位候选。页面标有未经授权禁止转载。",
+      "release": "link_only"
+    }
+  ]
+}

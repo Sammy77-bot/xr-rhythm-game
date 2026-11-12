@@ -1,0 +1,13 @@
+{
+  "video": "BV1JuhU6JEnJ-test.mp4",
+  "start_s": 0,
+  "end_s": 14.9,
+  "post_seed_frames": 447,
+  "median_processing_ms": 3.908800001227064,
+  "p95_processing_ms": 4.585479999695963,
+  "initial_points": 39,
+  "initialization_ms": 6.235800001377356,
+  "accepted_updates": 143,
+  "checks": [],
+  "seam_checks": []
+}

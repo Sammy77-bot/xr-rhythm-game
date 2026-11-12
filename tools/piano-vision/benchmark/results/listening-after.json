@@ -1,0 +1,377 @@
+{
+  "windowSize": 4096,
+  "sampleRate": 48000,
+  "hop": 1344,
+  "results": [
+    {
+      "id": "2024-09-05_21-31-00",
+      "split": "valid",
+      "clean": {
+        "total": 867,
+        "correct": 850,
+        "missed": 17,
+        "octave": 0,
+        "wrong": 0
+      },
+      "attack": {
+        "total": 179,
+        "correct": 118,
+        "missed": 30,
+        "octave": 0,
+        "wrong": 31
+      },
+      "overlap": {
+        "total": 4,
+        "anyCorrect": 2
+      },
+      "byBand": {
+        "low": {
+          "total": 0,
+          "correct": 0,
+          "missed": 0,
+          "octave": 0,
+          "wrong": 0
+        },
+        "mid": {
+          "total": 867,
+          "correct": 850,
+          "missed": 17,
+          "octave": 0,
+          "wrong": 0
+        },
+        "high": {
+          "total": 0,
+          "correct": 0,
+          "missed": 0,
+          "octave": 0,
+          "wrong": 0
+        }
+      },
+      "confusions": {
+        "67->none": 4,
+        "74->none": 6,
+        "71->none": 7
+      },
+      "confusionExamples": {
+        "67->none": {
+          "time_s": 9.521,
+          "note_age_ms": 441
+        },
+        "74->none": {
+          "time_s": 19.461,
+          "note_age_ms": 719
+        },
+        "71->none": {
+          "time_s": 28.785,
+          "note_age_ms": 629
+        }
+      },
+      "updateMs": {
+        "median": 0.07580000000000098,
+        "p95": 0.08019999999999072
+      },
+      "firstCorrect": {
+        "total": 52,
+        "found": 52,
+        "median_ms": 47.62533333333607
+      }
+    },
+    {
+      "id": "2024-09-05_21-04-38",
+      "split": "valid",
+      "clean": {
+        "total": 728,
+        "correct": 714,
+        "missed": 14,
+        "octave": 0,
+        "wrong": 0
+      },
+      "attack": {
+        "total": 313,
+        "correct": 199,
+        "missed": 46,
+        "octave": 0,
+        "wrong": 68
+      },
+      "overlap": {
+        "total": 9,
+        "anyCorrect": 5
+      },
+      "byBand": {
+        "low": {
+          "total": 0,
+          "correct": 0,
+          "missed": 0,
+          "octave": 0,
+          "wrong": 0
+        },
+        "mid": {
+          "total": 728,
+          "correct": 714,
+          "missed": 14,
+          "octave": 0,
+          "wrong": 0
+        },
+        "high": {
+          "total": 0,
+          "correct": 0,
+          "missed": 0,
+          "octave": 0,
+          "wrong": 0
+        }
+      },
+      "confusions": {
+        "69->none": 2,
+        "67->none": 12
+      },
+      "confusionExamples": {
+        "69->none": {
+          "time_s": 20.133,
+          "note_age_ms": 260
+        },
+        "67->none": {
+          "time_s": 29.737,
+          "note_age_ms": 126
+        }
+      },
+      "updateMs": {
+        "median": 0.08280000000002019,
+        "p95": 0.08850000000001046
+      },
+      "firstCorrect": {
+        "total": 88,
+        "found": 87,
+        "median_ms": 49.12533333333613
+      }
+    },
+    {
+      "id": "2024-09-04_17-02-04",
+      "split": "test",
+      "clean": {
+        "total": 884,
+        "correct": 837,
+        "missed": 26,
+        "octave": 3,
+        "wrong": 18
+      },
+      "attack": {
+        "total": 175,
+        "correct": 120,
+        "missed": 33,
+        "octave": 0,
+        "wrong": 22
+      },
+      "overlap": {
+        "total": 17,
+        "anyCorrect": 17
+      },
+      "byBand": {
+        "low": {
+          "total": 0,
+          "correct": 0,
+          "missed": 0,
+          "octave": 0,
+          "wrong": 0
+        },
+        "mid": {
+          "total": 884,
+          "correct": 837,
+          "missed": 26,
+          "octave": 3,
+          "wrong": 18
+        },
+        "high": {
+          "total": 0,
+          "correct": 0,
+          "missed": 0,
+          "octave": 0,
+          "wrong": 0
+        }
+      },
+      "confusions": {
+        "67->none": 7,
+        "60->79": 18,
+        "72->none": 7,
+        "69->none": 11,
+        "71->none": 1,
+        "60->48": 3
+      },
+      "confusionExamples": {
+        "67->none": {
+          "time_s": 16.829,
+          "note_age_ms": 546
+        },
+        "60->79": {
+          "time_s": 20.469,
+          "note_age_ms": 1169
+        },
+        "72->none": {
+          "time_s": 22.877,
+          "note_age_ms": 625
+        },
+        "69->none": {
+          "time_s": 24.585,
+          "note_age_ms": 506
+        },
+        "71->none": {
+          "time_s": 36.177,
+          "note_age_ms": 600
+        },
+        "60->48": {
+          "time_s": 43.877,
+          "note_age_ms": 853
+        }
+      },
+      "updateMs": {
+        "median": 0.0858000000000061,
+        "p95": 0.08859999999998536
+      },
+      "firstCorrect": {
+        "total": 51,
+        "found": 51,
+        "median_ms": 43.29133333333246
+      }
+    },
+    {
+      "id": "2024-09-05_21-26-38",
+      "split": "test",
+      "clean": {
+        "total": 704,
+        "correct": 667,
+        "missed": 36,
+        "octave": 1,
+        "wrong": 0
+      },
+      "attack": {
+        "total": 211,
+        "correct": 128,
+        "missed": 42,
+        "octave": 0,
+        "wrong": 41
+      },
+      "overlap": {
+        "total": 17,
+        "anyCorrect": 13
+      },
+      "byBand": {
+        "low": {
+          "total": 0,
+          "correct": 0,
+          "missed": 0,
+          "octave": 0,
+          "wrong": 0
+        },
+        "mid": {
+          "total": 704,
+          "correct": 667,
+          "missed": 36,
+          "octave": 1,
+          "wrong": 0
+        },
+        "high": {
+          "total": 0,
+          "correct": 0,
+          "missed": 0,
+          "octave": 0,
+          "wrong": 0
+        }
+      },
+      "confusions": {
+        "69->none": 5,
+        "60->none": 31,
+        "70->58": 1
+      },
+      "confusionExamples": {
+        "69->none": {
+          "time_s": 10.165,
+          "note_age_ms": 875
+        },
+        "60->none": {
+          "time_s": 20.889,
+          "note_age_ms": 287
+        },
+        "70->58": {
+          "time_s": 31.221,
+          "note_age_ms": 392
+        }
+      },
+      "updateMs": {
+        "median": 0.08399999999994634,
+        "p95": 0.08770000000004075
+      },
+      "firstCorrect": {
+        "total": 56,
+        "found": 56,
+        "median_ms": 52.50033333333093
+      }
+    },
+    {
+      "id": "2024-02-15_20-47-59",
+      "split": "test",
+      "clean": {
+        "total": 50,
+        "correct": 32,
+        "missed": 18,
+        "octave": 0,
+        "wrong": 0
+      },
+      "attack": {
+        "total": 21,
+        "correct": 0,
+        "missed": 18,
+        "octave": 0,
+        "wrong": 3
+      },
+      "overlap": {
+        "total": 955,
+        "anyCorrect": 353
+      },
+      "byBand": {
+        "low": {
+          "total": 9,
+          "correct": 8,
+          "missed": 1,
+          "octave": 0,
+          "wrong": 0
+        },
+        "mid": {
+          "total": 41,
+          "correct": 24,
+          "missed": 17,
+          "octave": 0,
+          "wrong": 0
+        },
+        "high": {
+          "total": 0,
+          "correct": 0,
+          "missed": 0,
+          "octave": 0,
+          "wrong": 0
+        }
+      },
+      "confusions": {
+        "55->none": 17,
+        "51->none": 1
+      },
+      "confusionExamples": {
+        "55->none": {
+          "time_s": 11.201,
+          "note_age_ms": 451
+        },
+        "51->none": {
+          "time_s": 18.733,
+          "note_age_ms": 125
+        }
+      },
+      "updateMs": {
+        "median": 0.08410000000003492,
+        "p95": 0.08900000000005548
+      },
+      "firstCorrect": {
+        "total": 5,
+        "found": 4,
+        "median_ms": 121.7083333333342
+      }
+    }
+  ]
+}

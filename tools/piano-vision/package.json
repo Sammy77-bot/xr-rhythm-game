@@ -1,0 +1,1 @@
+{"name":"xreal-piano-key-demo","private":true,"type":"module","scripts":{"dev":"vite --host 127.0.0.1 --port 5275 --strictPort","build":"vite build","preview":"vite preview --host 127.0.0.1 --port 5275 --strictPort"},"dependencies":{"pianocv":"0.5.3","onnxruntime-web":"1.29.0"},"devDependencies":{"vite":"6.4.1"}}

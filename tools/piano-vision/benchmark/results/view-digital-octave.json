@@ -1,0 +1,12 @@
+{
+  "video": "view-pexels-855132.mp4",
+  "start_s": 5,
+  "end_s": 15,
+  "post_seed_frames": 240,
+  "median_processing_ms": 6.10260000001972,
+  "p95_processing_ms": 8.85044000001471,
+  "initial_points": 48,
+  "initialization_ms": 10.698100000013255,
+  "accepted_updates": 240,
+  "checks": []
+}

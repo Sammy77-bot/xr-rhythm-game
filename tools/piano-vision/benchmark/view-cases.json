@@ -1,0 +1,15 @@
+{
+  "clips": [
+    {"id":"control-overhead","video":"media/2024-03-04_03-46-36.mp4","source":"https://huggingface.co/datasets/PianoVAM/PianoVAM_v1/tree/408daf63883a7f32366552475794c5cfad657e7a","view":"fixed overhead, full 88-key keyboard","counts":{"white":52,"black":36},"geometry":{"width":1920,"height":1080,"quad_px":[[91,337],[1773,323],[1774,532],[92,540]]},"frames_s":[0,4,8,12,16,20]},
+    {"id":"control-overhead-cropped","video":"media/2024-03-04_03-46-36.mp4","view":"paired crop of the same overhead frames, both keyboard ends removed","crop_px":[900,600,510,180],"frames_s":[0,4,8,12,16,20]},
+    {"id":"control-pov","video":"media/BV1dT4y1T7bj.mp4","source":"https://www.bilibili.com/video/BV1dT4y1T7bj/","view":"moving first person, cropped keyboard and hands","frames_s":[2,6,10,14,18,20]},
+    {"id":"digital-overhead","video":"media/view-pexels-855132.mp4","source":"https://www.pexels.com/video/person-playing-the-piano-855132/","view":"digital keyboard from above, both ends cropped","frames_s":[5,15,25,35,45,55]},
+    {"id":"four-hands","video":"media/view-pexels-7314529.mp4","source":"https://www.pexels.com/video/close-up-shot-of-two-hands-playing-the-piano-7314529/","view":"piano from above with four hands, both ends cropped","frames_s":[2,6,10,14,18,22]},
+    {"id":"reverse-overhead","video":"media/view-pexels-17659471.mp4","source":"https://www.pexels.com/video/a-person-playing-an-upright-piano-with-their-hands-17659471/","view":"upright piano from the opposite side, player at image top, cropped","frames_s":[0.4,1.2,2,2.8,3.6,4.4]},
+    {"id":"reverse-overhead-180","video":"media/view-pexels-17659471.mp4","source":"https://www.pexels.com/video/a-person-playing-an-upright-piano-with-their-hands-17659471/","view":"paired control rotated 180 degrees","rotation_deg":180,"frames_s":[0.4,1.2,2,2.8,3.6,4.4]},
+    {"id":"dark-side","video":"media/view-pexels-6919509.mp4","source":"https://www.pexels.com/video/a-person-playing-piano-6919509/","view":"low side view with shallow depth of field and colored light","frames_s":[0.6,1.6,2.6,3.6,4.6,5.6]},
+    {"id":"low-diagonal","video":"media/view-pexels-8128611.mp4","source":"https://www.pexels.com/video/low-angle-shot-of-a-man-playing-a-piano-8128611/","view":"low tilted view along the keyboard, severe foreshortening","frames_s":[2,4,6,8,10,12]},
+    {"id":"historic-oblique","video":"media/view-square.webm","source":"https://commons.wikimedia.org/wiki/File:Square_piano_made_by_Andrew_Rochead_in_Edinburgh.webm","view":"historical square piano oblique close-up, one end blocked","frames_s":[39,43,47,51,55,59]},
+    {"id":"concert-wide","video":"media/view-bach.ogv","source":"https://commons.wikimedia.org/wiki/File:Samuelpost-BachBMajor.ogv","view":"concert wide shot, key surface hidden by piano and player","frames_s":[15,35,55,75,95,115]}
+  ]
+}

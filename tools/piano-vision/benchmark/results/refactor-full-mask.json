@@ -1,0 +1,33 @@
+{
+  "video": "2024-03-04_03-46-36.mp4",
+  "mask_start_s": 8,
+  "mask_end_s": 10,
+  "mask_xywh_px": [
+    70,
+    300,
+    1740,
+    275
+  ],
+  "frames_per_second": 60.0,
+  "recovery_after_mask_ms": 0.0,
+  "phases": {
+    "before": {
+      "frames": 120,
+      "tracked": 120,
+      "note_frames": 120,
+      "highlightable": 120
+    },
+    "during": {
+      "frames": 120,
+      "tracked": 0,
+      "note_frames": 104,
+      "highlightable": 0
+    },
+    "after": {
+      "frames": 120,
+      "tracked": 120,
+      "note_frames": 105,
+      "highlightable": 105
+    }
+  }
+}

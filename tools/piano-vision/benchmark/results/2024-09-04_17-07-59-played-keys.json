@@ -1,0 +1,46 @@
+{
+  "video": "2024-09-04_17-07-59.mp4",
+  "start_s": 3,
+  "end_s": 16.5,
+  "post_seed_frames": 810,
+  "median_processing_ms": 22.340850031469017,
+  "p95_processing_ms": 28.301205002935603,
+  "regions": [
+    {
+      "id": "lower",
+      "initial_points": 48,
+      "initialization_ms": 22.55869994405657,
+      "accepted_updates": 810,
+      "checks": []
+    },
+    {
+      "id": "upper",
+      "initial_points": 48,
+      "initialization_ms": 23.5972999362275,
+      "accepted_updates": 810,
+      "checks": []
+    }
+  ],
+  "frames_by_region_count": [
+    0,
+    0,
+    810
+  ],
+  "shared_edge_rejections": 0,
+  "raw_shared_edge_error_px": {
+    "median": 0.1294066160917282,
+    "p95": 0.48415270596742616
+  },
+  "audio_overlay": {
+    "highlighted_frames": 547,
+    "highlighted_midi": [
+      55,
+      59,
+      60,
+      62,
+      64,
+      65,
+      67
+    ]
+  }
+}

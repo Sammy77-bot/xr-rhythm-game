@@ -1,0 +1,43 @@
+:root {
+  color-scheme: dark;
+  --paper: #111513;
+  --ink: #e9efe8;
+  --muted: #acb8af;
+  --mint: #96f6bb;
+  --line: #36433a;
+  background: var(--paper);
+  color: var(--ink);
+  font: 15px/1.55 "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { width: min(1040px, 100% - 32px); margin: 36px auto; }
+header { border-top: 3px solid var(--mint); padding-top: 10px; }
+.eyebrow, .monitor-head, .monitor-foot { font: 13px/1.5 Consolas, "Microsoft YaHei", monospace; }
+.eyebrow { color: var(--mint); display: flex; justify-content: space-between; }
+h1 { font-size: clamp(36px, 6vw, 68px); letter-spacing: -.08em; line-height: 1.1; margin: 24px 0 12px; }
+h1 span { color: var(--mint); margin-left: .08em; }
+header > p:last-child, .hint { color: var(--muted); }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0; }
+button, select, input { font: inherit; color: inherit; background: #202823; border: 1px solid var(--line); padding: 7px 12px; }
+button { cursor: pointer; }
+button:disabled { opacity: .45; cursor: default; }
+button:not(:disabled):hover, :focus-visible { outline: 2px solid var(--mint); outline-offset: 1px; }
+#xr { background: var(--mint); color: #111513; font-weight: 700; }
+#monitor { border: 1px solid var(--line); background: #0a0d0b; display: flex; flex-direction: column; }
+.monitor-head, .monitor-foot { min-height: 44px; display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 6px 12px; }
+.monitor-head { border-bottom: 1px solid var(--line); }
+.monitor-foot { border-top: 1px solid var(--line); color: var(--mint); }
+.view { display: grid; place-items: center; min-height: 280px; background: #080a09; }
+#placeholder { color: var(--muted); padding: 16px; }
+canvas { max-width: 100%; max-height: min(60vh, 650px); object-fit: contain; }
+.view > canvas { grid-area: 1 / 1; }
+#note-overlay { pointer-events: none; }
+#played-note { color: var(--mint); font-variant-numeric: tabular-nums; }
+#monitor:fullscreen .view { flex: 1; min-height: 0; overflow: hidden; }
+#monitor:fullscreen canvas { max-height: calc(100vh - 90px); }
+.lower { align-items: center; }
+label { display: flex; gap: 8px; align-items: center; }
+#midi { width: 88px; }
+.hint { font-size: 13px; }
+.hint a { color: inherit; text-underline-offset: .2em; }

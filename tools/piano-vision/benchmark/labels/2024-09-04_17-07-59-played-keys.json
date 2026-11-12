@@ -1,0 +1,9 @@
+{
+  "start_s": 3,
+  "end_s": 16.5,
+  "anchor_region": "upper",
+  "regions": [
+    {"id": "lower", "first_midi": 48, "seed_quad_px": [[671,446],[861,446],[863,603],[672,603]]},
+    {"id": "upper", "first_midi": 60, "seed_quad_px": [[861,446],[1052,446],[1054,603],[863,603]]}
+  ]
+}

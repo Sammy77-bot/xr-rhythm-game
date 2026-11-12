@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "sources": {
+    "pianovam": {
+      "url": "https://huggingface.co/datasets/PianoVAM/PianoVAM_v1/tree/408daf63883a7f32366552475794c5cfad657e7a",
+      "view": "fixed overhead",
+      "notes": "Performance MIDI-derived TSV, not audio model labels",
+      "geometry": "metadata_v1.json keyboard corners in the original 1920 x 1080 video"
+    },
+    "bilibili": {
+      "url": "https://www.bilibili.com/video/BV1dT4y1T7bj/",
+      "view": "moving first person, hand and sheet occlusion, cropped keyboard",
+      "notes": "No synchronized MIDI or independently verified note labels",
+      "release": "Local evaluation copy only. Distribute source link."
+    }
+  },
+  "clips": [
+    {
+      "id": "2024-03-04_03-46-36",
+      "source": "pianovam",
+      "split": "valid",
+      "video": "media/2024-03-04_03-46-36.mp4",
+      "audio": "media/2024-03-04_03-46-36.wav",
+      "notes": "labels/2024-03-04_03-46-36.tsv",
+      "counts": {"white": 52, "black": 36},
+      "first_white_midi": 21,
+      "geometry": {"width": 1920, "height": 1080, "quad_px": [[91, 337], [1773, 323], [1774, 532], [92, 540]]},
+      "key_points": {
+        "0": [[21,105,505],[22,123,410],[23,139,505],[24,168,505],[25,179,410],[26,198,505],[27,216,410],[28,230,505],[29,261,505],[30,271,410],[31,292,505],[32,308,410]]
+      },
+      "frames_s": [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]
+    },
+    {
+      "id": "2024-09-04_17-07-59",
+      "source": "pianovam",
+      "split": "test",
+      "video": "media/2024-09-04_17-07-59.mp4",
+      "audio": "media/2024-09-04_17-07-59.wav",
+      "notes": "labels/2024-09-04_17-07-59.tsv",
+      "counts": {"white": 52, "black": 36},
+      "first_white_midi": 21,
+      "geometry": {"width": 1920, "height": 1080, "quad_px": [[250, 446], [1647, 446], [1650, 602], [247, 601]]},
+      "key_points": {
+        "0": [[21,262,570],[22,276,500],[23,287,570],[24,312,570],[25,322,500],[26,338,570],[27,353,500],[28,365,570],[29,390,570],[30,399,500],[31,416,570],[32,429,500]]
+      },
+      "frames_s": [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+    },
+    {
+      "id": "BV1dT4y1T7bj",
+      "source": "bilibili",
+      "split": "pov_stress_test",
+      "video": "media/BV1dT4y1T7bj.mp4",
+      "audio": "media/BV1dT4y1T7bj.wav",
+      "frames_s": [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20],
+      "visibility_review": "Manual contact-sheet review: t=0 has strong blur. Later sampled frames show a partial keyboard, with hands and sheet music intermittently covering keys."
+    }
+  ]
+}

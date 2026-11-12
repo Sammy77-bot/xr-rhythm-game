@@ -1,0 +1,14 @@
+{
+  "source": "https://www.bilibili.com/video/BV1dT4y1T7bj/",
+  "annotation": "Approximate hand-marked outer corners of the same C–B region under the center-right logo, in 360 × 480 source pixels. Order: back left, back right, front right, front left. Octave number is unknown.",
+  "start_s": 10,
+  "end_s": 21.5,
+  "seed_quad_px": [[171, 258], [289, 273], [290, 371], [168, 360]],
+  "checks": [
+    {"time_s": 12, "quad_px": [[170, 280], [290, 294], [289, 391], [168, 379]]},
+    {"time_s": 14, "quad_px": [[168, 283], [283, 296], [283, 391], [163, 380]]},
+    {"time_s": 16, "quad_px": [[167, 281], [282, 296], [282, 391], [162, 379]]},
+    {"time_s": 18, "quad_px": [[169, 268], [284, 280], [286, 374], [167, 362]]},
+    {"time_s": 20, "quad_px": [[177, 259], [300, 269], [297, 367], [173, 354]]}
+  ]
+}

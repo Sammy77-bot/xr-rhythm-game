@@ -1,0 +1,90 @@
+{
+  "video": "view-pexels-855132.mp4",
+  "start_s": 5,
+  "end_s": 15,
+  "post_seed_frames": 240,
+  "median_processing_ms": 11.169950000294193,
+  "p95_processing_ms": 12.085984999612265,
+  "regions": [
+    {
+      "id": "left",
+      "initial_points": 48,
+      "initialization_ms": 11.726699998689583,
+      "accepted_updates": 235,
+      "checks": [],
+      "seam_checks": [
+        {
+          "time_s": 8,
+          "total": 3,
+          "errors_px": [
+            0.2335205078125,
+            0.88665771484375,
+            0.23675537109375
+          ],
+          "within_5px": 3
+        },
+        {
+          "time_s": 12,
+          "total": 2,
+          "errors_px": [
+            0.57763671875,
+            0.04705810546875
+          ],
+          "within_5px": 2
+        }
+      ]
+    },
+    {
+      "id": "right",
+      "initial_points": 48,
+      "initialization_ms": 11.002900000676163,
+      "accepted_updates": 240,
+      "checks": [],
+      "seam_checks": [
+        {
+          "time_s": 8,
+          "total": 3,
+          "errors_px": [
+            1.9949951171875,
+            1.4149169921875,
+            2.7271728515625
+          ],
+          "within_5px": 3
+        },
+        {
+          "time_s": 12,
+          "total": 4,
+          "errors_px": [
+            0.587890625,
+            1.9346923828125,
+            1.4024658203125,
+            2.7630615234375
+          ],
+          "within_5px": 4
+        },
+        {
+          "time_s": 14,
+          "total": 5,
+          "errors_px": [
+            1.16644287109375,
+            0.60601806640625,
+            1.93878173828125,
+            1.38995361328125,
+            2.7327880859375
+          ],
+          "within_5px": 5
+        }
+      ]
+    }
+  ],
+  "frames_by_region_count": [
+    0,
+    5,
+    235
+  ],
+  "shared_edge_rejections": 2,
+  "raw_shared_edge_error_px": {
+    "median": 0.5245020389556885,
+    "p95": 4.571124362945554
+  }
+}

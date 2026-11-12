@@ -1,0 +1,12 @@
+.gradle/
+local.properties
+**/build/
+**/obj/
+**/bin/
+**/Library/
+**/Temp/
+**/__pycache__/
+tools/piano-vision/node_modules/
+tools/piano-vision/dist/
+tools/piano-vision/public/keynet.onnx
+tools/piano-vision/benchmark/media/
